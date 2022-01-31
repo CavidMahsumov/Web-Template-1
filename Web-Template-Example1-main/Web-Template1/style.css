@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Neonderthaw&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300&display=swap');
+
+body{
+    margin: 0;
+}
+
+header{
+    height: 70vh;
+    background-color: rgb(26,26,26);
+}
+.box-1{
+    width: 60%;
+    margin: auto;
+    position: relative;
+    padding: 35px 0;
+}
+.b-1{
+    position: absolute;
+    top: 20px;
+    left: 5px;
+}
+.b-2{
+    position: absolute;
+    top: 20px;
+    right: 5px;
+}
+
+.box-2{
+        width: 50%;
+        margin: auto;
+        margin-top: 280px;
+        text-align: center;
+}
+.p-1{
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.25em;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    letter-spacing: 18px;
+}
+.p-2{
+color: white;
+font-size: 1em;
+text-align: center;
+font-family: 'Raleway', sans-serif;
+letter-spacing: 6px;
+margin-top: 35px;
+}
+.box-2 > a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ffe500;
+    color: #1b1b1b;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 0.8em;
+    letter-spacing: 4px;
+    display: inline-block;
+    width: 170px;
+    height: 45px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 17px 0;
+    box-sizing: border-box;
+
+}
+
+main{
+    background-color: #fff;
+    text-align: center;
+    padding: 160px 0 220px 0;
+}
+
+main > div{
+    width: 30%;
+    margin: auto;
+}
+main > div >p{
+    margin-top: 90px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+    color: #7a7a7a;
+    line-height: 30px;
+}
+
+.s-1{
+    padding: 90px 0 40px 0;
+    background-color: #f4f4f4;
+}
+
+.head-1{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.head-1 > .p-1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 15px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #1b1b1b;
+}
+
+.head-1 > .p-2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    margin-top: 40px;
+    color: #707070;
+}
+
+.head-2{
+    width: 70%;
+    margin: auto;
+}
+.item{
+    padding: 45px 30px 25px 30px;
+    box-shadow: 0 0 5px #cfcdcd;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 18%;
+}
+.page{
+    color: #1b1b1b;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 7px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.text{
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    color: #707070;
+}
+.item > img{
+    height: 60px;
+}
+
+.s-2{
+    padding: 90px 0 40px 0;
+    margin: auto;
+    background-color: #f4f4f4;
+}
+.s-2 >.s-2Head{
+    width: 70%;
+    margin: auto;
+}
+.s-2 >.s-2Head >.item1{
+    padding: 45px 30px 25px 30px;
+    box-shadow: 0 0 5px #cfcdcd;
+    margin: 10px;
+    display: inline-block;
+    width: 18%;
+}
+
+.s-3{
+    background-color: black;
+    height: 240px;
+    text-align: center;
+}
+.s-3 >.s-3Head{
+
+    display: inline-block;
+}
+.s-3Head >div {
+    display: inline-block;
+    background-color: white;
+    margin-left: 31px;
+    margin-top: 87px;
+    width: 270px;
+    height: 70px;
+
+}
+.s-3Head >div >p{
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+
+
+progress{
+    background-color: yellow;
+    color: yellow   ;
+    width: 15em;
+}
+
+.s-4Head{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.s-4Head > .p-1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 15px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #1b1b1b;
+}
+
+.s-4Head > .p-2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    margin-top: 40px;
+    color: #707070;
+}
+.s-4Head >.img1{
+    margin-top: 83px;
+}
+.s-5{
+    height: 40vh;
+}
+.s-5Head{
+    position: relative;
+}
+
+
+.s-5 >.s-5Head >.part1{
+    width: 39em;
+    display: inline-block;
+    margin-left:15em;
+    border-top: #1b1b1b solid 3px;
+    border-bottom: #1b1b1b solid 3px;
+    margin-top: 6em;
+    position: absolute;
+    
+}
+
+.part1 >p{
+    margin-left: 12em;
+    display: inline-block;
+}
+.s-5Head >img{
+    display: inline-block;
+    position: absolute;
+    margin-top: 70px;
+}
+
+.part2{
+    width: 39em;
+    position: relative;
+    float: right;
+    border-top: black solid 3px;
+    border-bottom: black solid 3px;
+    margin-top: 6em;
+    margin-right: 13em;
+}
+.part2 >p{
+    display: inline-block;
+    margin-left: 12em;
+}
+.s-6{
+    margin-top: 80px;
+    width: 100%;
+    display: inline-block;
+    height: 347px;
+    background-color:#f4f4f4;
+    display: flex;
+
+
+}
+
+.s-6 >div{
+    width: 300px;
+    height: 347px;
+
+}
+.s-6 >.item1{
+    background-color: #f4f4f4;
+}
+.s-6 >.item2{
+    background-color: #1a1a1a;
+}
+.s-6 >.item3{
+    background-color: #f4f4f4;
+}
+.s-6 >.item4{
+    background-color: #1a1a1a;
+}
+.s-6 >.item5{
+    background-color: #f4f4f4;
+}
+.s-6 >.item6{
+    background-color: #1a1a1a;
+}
+
+.s-7{
+    margin: auto;
+    margin-top: 10em;
+    text-align: center;
+}
+
+.s-7 >p{
+    margin-left: 43%;
+    text-align: center;
+    width:230px;
+    height: 45px;
+    background-color: #ffe500;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.s-8{
+    box-sizing: border-box;
+    padding-top: 6em;
+    background-color: black;
+    width: 100%;
+    height:30vh;
+    margin: auto;
+    text-align: center;
+}
+
+.s-8 >p{
+    box-sizing: border-box;
+    padding-top: 30px;
+    margin-left: 50em;
+    width: 300px;
+    height: 80px;
+    border-top: #ffe500 solid 2px;
+    border-bottom: #ffe500 solid 2px;
+    border-right: #ffe500 solid 2px;
+    border-left: #ffe500 solid 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #c2b007; 
+    letter-spacing: 2px;
+}
+
+.s-4Head{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+.s-4Head > .p-1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 15px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #1b1b1b;
+}
+
+.s-4Head > .p-2{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    margin-top: 40px;
+    color: #707070;
+}
+
+.s-9 >.listdiv{
+    display: flex;
+}
+
+.s-9 >.listdiv >.item1{
+    margin-top: 10em;
+    margin-left: 23em;
+
+    
+}
+.s-9 >.listdiv >.item2{
+    margin-top: 10em;
+    margin-left: 3em;
+
+    
+}
+.s-9 >.listdiv >.item3{
+    margin-top: 10em;
+    margin-left: 3em;
+
+    
+}
+.s-9 >.listdiv >.item4{
+    margin-top: 10em;
+    margin-left: 3em;
+
+    
+}
+
+.s-9  > .listdiv >.item1 >div{
+    
+    background-color: black;
+    width: 270px;
+    height: 290px;
+}
+.s-9 > .listdiv >.item1  >.p1{
+    margin-top:-10px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #d1bc05;
+    width:270px ;
+    height: 50px;
+}
+
+.s-9 > .listdiv >.item1  >.p2{
+    margin-top:-14px;
+    font-family: 'Source Serif 4', sans-serif;
+    box-sizing: border-box;
+    width: 270px;
+    height: 160px;
+    box-shadow: 0 0 5px #cfcdcd;
+    padding: 20px;
+
+}
+.s-9  > .listdiv >.item2 >div{
+    
+    background-color: black;
+    width: 270px;
+    height: 290px;
+}
+.s-9 > .listdiv >.item2 >.p1{
+    margin-top:-10px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #d1bc05;
+    width:270px ;
+    height: 50px;
+}
+
+.s-9 > .listdiv >.item2  >.p2{
+    margin-top:-14px;
+    font-family: 'Source Serif 4', sans-serif;
+    box-sizing: border-box;
+    width: 270px;
+    height: 160px;
+    box-shadow: 0 0 5px #cfcdcd;
+    padding: 20px;
+
+}
+.s-9  > .listdiv >.item3 >div{
+    
+    background-color: black;
+    width: 270px;
+    height: 290px;
+}
+.s-9 > .listdiv >.item3  >.p1{
+    margin-top:-10px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #d1bc05;
+    width:270px ;
+    height: 50px;
+}
+
+.s-9 > .listdiv >.item3  >.p2{
+    margin-top:-14px;
+    font-family: 'Source Serif 4', sans-serif;
+    box-sizing: border-box;
+    width: 270px;
+    height: 160px;
+    box-shadow: 0 0 5px #cfcdcd;
+    padding: 20px;
+
+}
+.s-9  > .listdiv >.item4 >div{
+    
+    background-color: black;
+    width: 270px;
+    height: 290px;
+}
+.s-9 > .listdiv >.item4  >.p1{
+    margin-top:-10px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #d1bc05;
+    width:270px ;
+    height: 50px;
+}
+
+.s-9 > .listdiv >.item4  >.p2{
+    margin-top:-14px;
+    font-family: 'Source Serif 4', sans-serif;
+    box-sizing: border-box;
+    width: 270px;
+    height: 160px;
+    box-shadow: 0 0 5px #cfcdcd;
+    padding: 20px;
+
+}
+.s-10{
+    position: relative;
+}
+
+.s-10 >.yellow{
+    margin-top: 20em;
+    width: 100%;
+    height: 20vh;
+    background-color: #ffe500;
+}
+.s-10 >.black1{
+    width: 570px;
+    height: 375px;
+    background-color: black;
+    position: absolute;
+    margin-left: 380px;
+    margin-top: -25em;
+}
+.black1 >p{
+    color: white;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.s-10 >.word1{
+    width: 420px;
+    height: 130px;
+    position: absolute;
+    background-color: transparent;
+    margin-left: 70em;
+    margin-top: -25em;
+
+}
+.s-10 >.word1 >.p2{
+    text-align: right;
+    padding-right: 40px;
+
+}
+.s-10 >.black2 {
+    width: 570px;
+    height: 375px;
+    background-color: black;
+    position: absolute;
+    margin-left: 70em;
+    margin-top: -10em;
+}
+.black2 >p{
+    color: white;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.s-10 >.word2{
+    width: 420px;
+    height: 130px;
+    position: absolute;
+    background-color: transparent;
+    margin-left: 25em;
+    margin-top: 3em;
+
+}
+.s-10 >.word2 >.p2{
+    text-align: right;
+    padding-right: 40px;
+
+}
+
+footer{
+    margin-top: 20em;
+    width: 100%;
+    height: 30em;
+    background-color: #1a1a1a;
+    display: inline-block;
+}
+
+footer> div >img{
+    margin-left: 25em;
+    margin-top: 10em;
+}
+
+footer >div >.about{
+    margin-left: 25em;
+    width: 400px;
+    height: 30px;
+    margin-top: 1em;
+    color: white;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    letter-spacing: 2px;
+    font-size: 13px;
+
+}
+footer >div{
+    display: inline-block;
+}
+footer >div >.created{
+    margin-left: 25em;
+    font-size: 13px;
+    margin-top: 3em;
+    color: white;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    letter-spacing: 2px;
+
+}
+
+footer >div >ol{
+    margin-top: 10em;
+    display: inline-block;
+    list-style: none;
+    color: white;
+    margin-left: 40px;
+}
+
+footer >div > ol >li{
+    margin-top: 10px;
+    letter-spacing: 2px;
+
+}
+
+footer >div >.ol2{
+    display: inline-block;
+    list-style: none;
+    color: white;
+    margin-left: 40px;
+}
+
+footer >div > .ol2 >li{
+    margin-top: 10px;
+    letter-spacing: 2px;
+
+}
+
+footer >.contacy{
+    display: inline-block;
+}
+footer >.contacy >p{
+    color: white;
+    width: 400px;
+    height: 30px;
+    margin-left: 10em;
+    font-size: 16px;
+
+}
+
+footer >.contacy >.yellowp{
+    box-sizing: border-box;
+    padding-top: 10px;
+    text-align: center;
+    background-color: yellow;
+    width: 300px;
+    height: 50px;
+    color: black;
+    border-radius: 20px;
+    margin-top: 30px;
+
+}
+footer >.footerol2{
+    margin-left: 83em;
+    list-style: none;
+    display: inline-block;
+
+}
+
+footer >.footerol2 >li{
+    display: inline-block;
+}
+
+
+footer >.footerol2 >li:hover{
+    transition-duration: 1s;
+    transform: translateY(0) scale(1.2);
+
+}
+footer >.contacy >.yellowp:hover{
+    transition-duration: 1s;
+    transform: translateY(0) scale(1.2);
+
+}
